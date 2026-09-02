@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Card Layer -->
+    <path
+        android:pathData="M30,30 L78,30 A8,8 0 0,1 86,38 L86,76 A8,8 0 0,1 78,84 L30,84 A8,8 0 0,1 22,76 L22,38 A8,8 0 0,1 30,30 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#80A855F7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="30"
+                android:endX="86"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#268B5CF6" />
+                <item android:offset="1.0" android:color="#14EC4899" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cutout / Person Silhouette in Center -->
+    <path
+        android:pathData="M54,42 C58.42,42 62,45.58 62,50 C62,54.42 58.42,58 54,58 C49.58,58 46,54.42 46,50 C46,45.58 49.58,42 54,42 Z M54,62 C63.95,62 72,66.05 72,71 L72,76 L36,76 L36,71 C36,66.05 44.05,62 54,62 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Wand / Laser Beam Removing Background -->
+    <path
+        android:pathData="M70,32 L84,46 M80,30 L86,36 M68,42 L74,48"
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Magic Stars / AI Sparks -->
+    <path
+        android:pathData="M34,36 L36,32 L38,36 L42,38 L38,40 L36,44 L34,40 L30,38 Z"
+        android:fillColor="#FBBF24" />
+    <path
+        android:pathData="M76,64 L77.5,61 L79,64 L82,65.5 L79,67 L77.5,70 L76,67 L73,65.5 Z"
+        android:fillColor="#F472B6" />
+</vector>
